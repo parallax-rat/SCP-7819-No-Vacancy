@@ -1,0 +1,103 @@
+[gd_scene load_steps=6 format=4 uid="uid://jtpn0f1ycks3"]
+
+[ext_resource type="Texture2D" uid="uid://bjhay3iibxogq" path="res://assets/nature/fern_1_fern_1.png" id="2_s5gne"]
+
+[sub_resource type="Shader" id="Shader_tox0v"]
+code = "shader_type spatial;
+render_mode blend_mix,
+	cull_disabled,
+	depth_prepass_alpha,
+	shadows_disabled,
+	specular_disabled,
+	vertex_lighting;
+
+uniform bool affine_mapping = false;
+uniform sampler2D albedo : source_color, filter_nearest;
+uniform float alpha_scissor : hint_range(0, 1) = 0.5;
+uniform float jitter: hint_range(0, 1) = 0.25;
+uniform ivec2 resolution = ivec2(320, 240);
+
+vec4 snap_to_position(vec4 base_position)
+{
+	vec4 snapped_position = base_position;
+	snapped_position.xyz = base_position.xyz / base_position.w;
+
+	vec2 snap_resulotion = floor(vec2(resolution) * (1.0 - jitter));
+	snapped_position.x = floor(snap_resulotion.x * snapped_position.x) / snap_resulotion.x;
+	snapped_position.y = floor(snap_resulotion.y * snapped_position.y) / snap_resulotion.y;
+
+	snapped_position.xyz *= base_position.w;
+	return snapped_position;
+}
+
+void vertex()
+{
+	vec4 snapped_position = snap_to_position(PROJECTION_MATRIX * MODELVIEW_MATRIX * vec4(VERTEX, 1.0));
+	if (affine_mapping)
+	{
+		POSITION = snapped_position;
+		POSITION /= abs(POSITION.w);
+	}
+	else
+	{
+		POSITION = snapped_position;
+	}
+}
+
+void fragment()
+{
+	vec4 color_base = COLOR;
+	vec4 texture_color = texture(albedo, UV);
+
+	ALBEDO = (color_base * texture_color).rgb;
+	ALPHA = texture_color.a * color_base.a;
+	ALPHA_SCISSOR_THRESHOLD = alpha_scissor;
+}"
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_xwyp8"]
+render_priority = 0
+shader = SubResource("Shader_tox0v")
+shader_parameter/affine_mapping = false
+shader_parameter/albedo = ExtResource("2_s5gne")
+shader_parameter/alpha_scissor = 0.5
+shader_parameter/jitter = 0.6
+shader_parameter/resolution = Vector2i(320, 240)
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_o6hn7"]
+_surfaces = [{
+"aabb": AABB(-0.496888, -0.546319, -1.10586, 0.973284, 1.03781, 1.14667),
+"format": 34896613377,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAAADAAEAAQAEAAIAAQAFAAQABgAHAAgABgAJAAcABwAKAAgABwALAAoADAANAA4ADAAPAA0ADQAQAA4ADQARABAA"),
+"name": "fern_1",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 18,
+"vertex_data": PackedByteArray("8AU0bn79AAAd3FyYnqAAAPAFNG6eoAAAHdxcmH79AAAAAJSFvkMAAC3WvK++QwAA//9IE///AADgKIjZ/38AAP//SBP/fwAA4CiI2f//AACm67kIAAAAAIgU+c4AAAAAjE0AANT+AADJqFrnNI8AAIxNAAA0jwAAyaha59T+AAAtJ6QYlB8AAGmC//+UHwAA")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_ynbw7"]
+resource_name = "fern_1_fern_1"
+_surfaces = [{
+"aabb": AABB(-0.496888, -0.546319, -1.10586, 0.973284, 1.03781, 1.14667),
+"attribute_data": PackedByteArray("/////wAA/3////9/AAD/////AAAAAAAA/////wAA/3////9/AAD/////AAAAAAAA/////wAA/3////9/AAD/////AAAAAAAA"),
+"format": 34896613399,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAAADAAEAAQAEAAIAAQAFAAQABgAHAAgABgAJAAcABwAKAAgABwALAAoADAANAA4ADAAPAA0ADQAQAA4ADQARABAA"),
+"material": SubResource("ShaderMaterial_xwyp8"),
+"name": "fern_1",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 18,
+"vertex_data": PackedByteArray("8AU0bn79Cvod3FyYnqBk+vAFNG6eoGX6HdxcmH79CvoAAJSFvkPD+i3WvK++Q8P6//9IE///28XgKIjZ/39+yP//SBP/f2vI4CiI2f//28Wm67kIAAAUy4gU+c4AABTLjE0AANT+Gd7JqFrnNI8/4YxNAAA0jxXhyaha59T+Gd4tJ6QYlB9o5GmC//+UH2jkUIYoQ6iG2D+ohtQ/UIYoQwCHgzwAh4M8ZcYyY4zHuWKFx7xiZcYyY6LISGKiyEhiDqGHUBejmk39or9NDqGHUPmk5kr5pOZK")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_o6hn7")
+
+[node name="Fern" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+
+[node name="fern_1" type="MeshInstance3D" parent="."]
+mesh = SubResource("ArrayMesh_ynbw7")
+skeleton = NodePath("")

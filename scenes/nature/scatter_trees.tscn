@@ -1,0 +1,607 @@
+[gd_scene load_steps=2 format=3 uid="uid://by4x0u86y77hv"]
+
+[ext_resource type="PackedScene" uid="uid://6qvwi36pa27t" path="res://scenes/nature/tree.tscn" id="1_xt7gg"]
+
+[node name="ScatterOutput" type="Marker3D"]
+
+[node name="ScatterItem" type="Node3D" parent="."]
+
+[node name="Tree24" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.767219, 0.15745, -1.84128, -0.0189406, 2.16271, 0.149368, 1.84689, -0.0432271, 0.766417, -3.62161, 0.05, -17.4535)
+
+[node name="Tree25" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.495299, 0.0939152, -1.93573, -0.0231954, 2.14803, 0.0842388, 1.93756, 0.00170749, 0.495839, -3.6253, 0.05, -3.69167)
+
+[node name="Tree26" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.863, 0.149092, 0.718367, -0.0972379, 2.59371, -0.0667822, -0.720948, 0.0354418, 1.86534, 2.37962, 0.05, -50.7332)
+
+[node name="Tree27" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.2183, 0.0259706, -1.58592, -0.00951059, 2.07519, 0.0242534, 1.58608, -0.007505, 1.21831, -3.70218, 0.05, 58.8395)
+
+[node name="Tree28" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.106678, -0.146332, 1.99314, -0.00104437, 2.30808, 0.126781, -1.99715, -0.0090233, 0.106397, 1.90458, 0.05, 10.4656)
+
+[node name="Tree29" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.93933, 0.10778, 0.481344, -0.106346, 2.51322, 0.0735755, -0.477188, -0.122068, 1.93982, 1.27968, 0.05, 12.2551)
+
+[node name="Tree30" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.3318, -0.0315502, -1.49193, 0.0845394, 2.93309, 0.0466935, 1.48969, -0.138246, 1.33115, 2.20688, 0.05, -41.8445)
+
+[node name="Tree31" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.21669, 0.0714251, -1.58609, -0.0942792, 2.26711, 0.00695363, 1.58454, 0.0800478, 1.2183, -0.725405, 0.05, -5.73489)
+
+[node name="Tree32" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.101724, 0.0462388, 1.99712, 0.00140492, 2.68891, -0.0345032, -1.99741, 0.00424615, 0.101685, -5.57136, 0.05, -31.4522)
+
+[node name="Tree33" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.70693, 0.155872, -1.03109, -0.102289, 2.03739, 0.125516, 1.03727, -0.0555879, 1.70912, 5.49659, 0.05, 58.3703)
+
+[node name="Tree34" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.99678, -0.0153179, -0.112407, 0.0144773, 2.05376, -0.00821829, 0.112464, 0.00759033, 1.99682, -0.43549, 0.05, 49.5547)
+
+[node name="Tree35" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.862267, 0.0112735, -1.80456, 0.0319439, 2.89185, 0.0239014, 1.80429, -0.0565861, 0.861971, -0.298597, 0.05, -34.008)
+
+[node name="Tree36" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.71161, -0.102178, 1.03102, 0.110775, 2.37445, -0.017474, -1.02865, 0.085686, 1.71368, 1.29352, 0.05, 2.52827)
+
+[node name="Tree37" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.9855, 0.0160589, 0.240004, -0.0284628, 2.25457, 0.117186, -0.238734, -0.135241, 1.98209, 2.3336, 0.05, -22.2406)
+
+[node name="Tree38" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.99221, 0.0919721, -0.154927, -0.0827276, 2.18402, 0.0214754, 0.155689, -0.0163769, 1.99387, -5.15193, 0.05, 43.4997)
+
+[node name="Tree39" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.95559, 0.178401, 0.400237, -0.111708, 2.8598, -0.0748252, -0.403988, 0.0728162, 1.95811, 5.38861, 0.05, -31.8885)
+
+[node name="Tree40" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.178619, -0.0115249, -1.99198, -0.0114956, 2.40427, -0.0106558, 1.99197, 0.0149083, 0.178558, -2.20154, 0.05, -35.1508)
+
+[node name="Tree41" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.959709, -0.0210405, -1.7546, -0.000668078, 2.31213, -0.0211087, 1.7547, 0.0123882, 0.959649, -5.54829, 0.05, -11.0562)
+
+[node name="Tree42" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.87248, -0.151694, 0.69154, 0.0765016, 2.42116, 0.152615, -0.698543, -0.141467, 1.87042, 3.02567, 0.0500001, 21.1209)
+
+[node name="Tree43" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.57351, -0.206087, -1.22156, 0.117563, 2.30002, -0.139525, 1.22892, 0.0438449, 1.57744, 5.81868, 0.05, 22.2314)
+
+[node name="Tree44" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.28765, -0.183093, 1.52506, 0.0286372, 2.87263, 0.142115, -1.53008, -0.100318, 1.28608, -2.38579, 0.05, 17.4189)
+
+[node name="Tree45" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.88524, -0.246081, 0.645608, 0.119655, 2.87086, 0.175672, -0.656924, -0.18329, 1.88476, -2.67139, 0.05, -41.19)
+
+[node name="Tree46" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.27034, 0.0842562, -1.54298, -0.11021, 2.28415, 0.00459865, 1.5408, 0.0939134, 1.27247, -5.6727, 0.05, -2.58713)
+
+[node name="Tree47" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.99555, -0.183072, 0.0131774, 0.131875, 2.74953, 0.101058, -0.0198373, -0.137904, 1.9974, 3.54625, 0.05, -2.10225)
+
+[node name="Tree48" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.134014, -0.229949, -1.98902, 0.0114955, 2.85139, -0.160357, 1.99547, -0.000983088, 0.134504, 0.979612, 0.05, -56.5281)
+
+[node name="Tree49" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.999122, 0.242107, 1.72341, -0.0621029, 2.71163, -0.169536, -1.73144, 0.0424471, 1.00056, 2.61854, 0.05, -31.5915)
+
+[node name="Tree50" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.245177, 0.453412, -1.95955, -0.0180164, 2.83089, 0.316476, 1.98483, -0.0303118, 0.244927, -3.8382, 0.05, 46.9299)
+
+[node name="Tree51" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.63663, -0.0919491, 1.14781, 0.0258032, 2.92078, 0.0727525, -1.14925, -0.065366, 1.63623, 0.861509, 0.05, 7.37717)
+
+[node name="Tree52" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.06744, -0.0368088, -1.69112, 0.0275132, 2.79291, -0.0137994, 1.6911, -0.022205, 1.06767, 2.72287, 0.05, 43.9798)
+
+[node name="Tree53" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.725372, -0.136642, 1.86112, 0.00951093, 2.71821, 0.104039, -1.8638, -0.0393087, 0.724859, -1.94465, 0.05, -37.852)
+
+[node name="Tree54" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.91833, -0.204884, -0.541757, 0.143071, 2.50785, -0.0922245, 0.547299, 0.0625517, 1.92302, -4.98154, 0.05, 4.74377)
+
+[node name="Tree55" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.94129, 0.0822496, 0.476476, -0.050558, 2.48524, -0.071316, -0.478379, 0.0711181, 1.9411, -1.29113, 0.05, -10.7663)
+
+[node name="Tree56" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.4934, -0.0244423, -1.33015, 0.000109263, 2.32931, -0.0314248, 1.33032, 0.0272473, 1.49322, 5.22003, 0.05, -4.74635)
+
+[node name="Tree57" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.99112, -0.199953, -0.113742, 0.156009, 2.65314, 0.103934, 0.105443, -0.149692, 1.99406, 0.0455036, 0.05, -37.5237)
+
+[node name="Tree58" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.542832, 0.381079, 1.90565, -0.0452628, 2.77834, -0.269631, -1.92439, 0.0421466, 0.543886, -4.39649, 0.05, -2.9013)
+
+[node name="Tree59" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.84501, 0.148028, 0.764367, -0.0926615, 2.73524, -0.0586929, -0.766388, 0.0256553, 1.84724, 2.24091, 0.05, -39.0695)
+
+[node name="Tree60" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.99485, 0.0948878, 0.10932, -0.0868469, 2.0373, -0.110958, -0.114203, 0.10817, 1.99393, 4.7098, 0.05, 41.5269)
+
+[node name="Tree61" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.114029, -0.0136606, -1.99671, 0.00627147, 2.37485, -0.0111647, 1.99674, -0.00667895, 0.114062, 3.48862, 0.05, -56.2332)
+
+[node name="Tree62" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.98747, -0.0348483, 0.2214, 0.0456002, 2.25629, -0.131656, -0.218834, 0.153665, 1.98334, -3.93593, 0.05, 38.1928)
+
+[node name="Tree63" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.7949, 0.00945213, 0.882179, 0.0398612, 2.08222, -0.101624, -0.881325, 0.113426, 1.79205, 3.99325, 0.05, 7.74215)
+
+[node name="Tree64" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.657848, -0.013555, 1.88868, 0.00947649, 2.48229, 0.00826387, -1.88869, 0.00773353, 0.657887, -4.28205, 0.05, -22.259)
+
+[node name="Tree65" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.38213, 0.293052, -1.42577, -0.0890227, 2.43602, 0.245451, 1.44284, -0.130419, 1.38092, 0.404499, 0.05, 19.0639)
+
+[node name="Tree66" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.26406, 0.00659358, 1.54988, 0.0821119, 2.47192, -0.0738325, -1.54771, 0.13653, 1.26191, -4.75793, 0.05, 28.0295)
+
+[node name="Tree67" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.128122, 0.251966, -1.98748, -0.000658883, 2.74117, 0.183399, 1.99589, -0.0152695, 0.127642, -1.27332, 0.05, -11.8671)
+
+[node name="Tree68" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.926, 0.246298, -0.511057, -0.155909, 2.86486, 0.0801561, 0.515954, -0.0537097, 1.93194, 3.47363, 0.05, -25.4247)
+
+[node name="Tree69" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.07847, -0.241176, -1.66783, 0.0612959, 2.0364, -0.240046, 1.68319, 0.0803704, 1.07737, 5.55888, 0.05, -6.43834)
+
+[node name="Tree70" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.99547, -0.16967, -0.0325707, 0.129825, 2.59506, -0.0388193, 0.0350281, 0.0476213, 1.99936, 6.39357, 0.05, -37.4191)
+
+[node name="Tree71" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.908691, 0.0283154, 1.7815, 0.0148183, 2.4527, -0.0334707, -1.78159, 0.0348423, 0.908368, 3.28477, 0.05, 45.5723)
+
+[node name="Tree72" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.8648, -0.16224, 0.711851, 0.135418, 2.5768, -0.00257955, -0.710054, 0.0653481, 1.86903, 5.68169, 0.05, -54.3865)
+
+[node name="Tree73" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.29335, -0.011769, 1.52551, 0.083084, 2.75806, -0.0592801, -1.52327, 0.140441, 1.29202, -4.13954, 0.05, 43.5805)
+
+[node name="Tree74" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.70739, 0.00894249, -1.0415, 0.0226383, 2.02552, 0.0540535, 1.04129, -0.0586988, 1.70656, 4.99498, 0.0500001, -26.9959)
+
+[node name="Tree75" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.94847, 0.165707, 0.426772, -0.142166, 2.26236, -0.0337681, -0.428098, 0.00290556, 1.95364, 5.50009, 0.05, -33.5001)
+
+[node name="Tree76" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.1968, -0.0200735, 1.60232, 0.0140817, 2.57971, 0.00890584, -1.60234, 0.0076781, 1.19687, -6.43481, 0.0500001, -45.3423)
+
+[node name="Tree77" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.06941, -0.0698348, 1.68908, 0.068136, 2.405, 0.025535, -1.68871, 0.0528127, 1.07068, 1.93704, 0.05, -34.0265)
+
+[node name="Tree78" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.92066, 0.0526677, -0.555899, -0.0197873, 2.32378, 0.0943398, 0.557389, -0.0989888, 1.91887, 0.209797, 0.05, 31.5426)
+
+[node name="Tree79" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.952087, 0.221112, -1.75103, -0.0470498, 2.66085, 0.16288, 1.75821, -0.0485294, 0.952556, -4.92147, 0.05, -20.0889)
+
+[node name="Tree80" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.954351, 0.228017, -1.74995, -0.0805329, 2.77179, 0.142853, 1.75577, 0.0031963, 0.95774, -0.351887, 0.05, 59.3183)
+
+[node name="Tree81" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.79999, -0.130719, -0.86577, 0.0670531, 2.54777, -0.0968189, 0.869227, 0.0741542, 1.8003, 4.24333, 0.05, -36.9045)
+
+[node name="Tree82" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.935792, 0.210609, 1.75525, -0.0260245, 2.00935, -0.222001, -1.76738, 0.0819258, 0.93264, 3.06912, 0.05, 39.7945)
+
+[node name="Tree83" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.9242, -0.122566, -0.536524, 0.0795945, 2.49942, -0.078989, 0.539547, 0.0683958, 1.92507, -4.71817, 0.05, -48.8354)
+
+[node name="Tree84" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.74216, 0.113803, -0.978463, -0.127198, 2.62501, -0.0500759, 0.974009, 0.139254, 1.74359, -4.67842, 0.05, -59.5823)
+
+[node name="Tree85" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.40767, 0.272017, -1.4052, -0.0944307, 2.58101, 0.201688, 1.41758, -0.0981834, 1.40881, -5.8424, 0.05, 44.4254)
+
+[node name="Tree86" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.876016, -0.234444, 1.79062, 0.0674226, 2.88254, 0.147506, -1.79668, -0.00613832, 0.878597, 1.44908, 0.05, 35.8373)
+
+[node name="Tree87" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.739131, -0.153945, -1.85363, 0.0297784, 2.30564, -0.131554, 1.85817, 0.024286, 0.739432, -2.34084, 0.05, 10.9889)
+
+[node name="Tree88" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.129276, -0.0371882, 1.99552, 0.00710524, 2.15739, 0.0340818, -1.9958, 0.00527168, 0.129378, 5.5144, 0.05, 46.4558)
+
+[node name="Tree89" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.15504, -0.0638976, 1.63207, -0.0417109, 2.70434, 0.0872926, -1.63222, -0.114326, 1.1527, -3.8224, 0.05, -38.6714)
+
+[node name="Tree90" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.538065, -0.0720915, -1.9256, 0.0195145, 2.8638, -0.0468054, 1.92616, -0.0088756, 0.538383, 1.29721, 0.05, 37.1609)
+
+[node name="Tree91" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.21642, -0.159477, -1.58014, 0.033947, 2.07417, -0.167086, 1.58719, 0.0778608, 1.2146, -4.83685, 0.05, -27.5463)
+
+[node name="Tree92" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.52017, -0.154059, -1.29249, 0.060826, 2.25511, -0.13867, 1.29823, 0.0747371, 1.51995, 4.93447, 0.05, 26.6113)
+
+[node name="Tree93" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.78273, -0.145951, -0.901118, 0.0919074, 2.93371, -0.0384629, 0.901911, -0.0104647, 1.78508, 4.33421, 0.0500001, -0.00088501)
+
+[node name="Tree94" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.98135, 0.126371, -0.248104, -0.0972296, 2.2342, 0.129461, 0.254589, -0.130226, 1.98032, 1.85967, 0.05, 51.615)
+
+[node name="Tree95" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.81158, 0.170536, -0.838999, -0.115325, 2.84943, 0.0352869, 0.83958, 0.0234315, 1.81517, 0.509329, 0.05, -39.4914)
+
+[node name="Tree96" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.91638, 0.105862, -0.565578, -0.126243, 2.41526, -0.12012, 0.558182, 0.182803, 1.9146, 4.01276, 0.05, 9.71141)
+
+[node name="Tree97" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.249839, -0.0760324, -1.98347, -0.000414297, 2.59555, -0.0590757, 1.98433, 0.0101148, 0.249718, -1.96229, 0.05, 48.1363)
+
+[node name="Tree98" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.113171, -0.0926219, 1.99561, 0.00914274, 2.6947, 0.0682946, -1.99677, 0.00708887, 0.113418, -1.20455, 0.05, 10.6201)
+
+[node name="Tree99" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.709645, 0.186967, -1.86377, -0.0240234, 2.47044, 0.152314, 1.86971, -0.0392208, 0.709346, -2.29654, 0.05, -20.4927)
+
+[node name="Tree100" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.31463, 0.180698, 1.49978, -0.106598, 2.40787, -0.105584, -1.50346, -0.0127193, 1.3189, 4.05245, 0.05, 5.61842)
+
+[node name="Tree101" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.62455, 0.0381629, 1.16626, -0.0790506, 2.95456, 0.0659306, -1.16386, -0.147407, 1.62342, -3.95227, 0.05, 53.2829)
+
+[node name="Tree102" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.91678, -0.119458, -0.561683, 0.0706825, 2.33055, -0.122004, 0.566524, 0.113404, 1.91563, 2.12491, 0.05, -37.0309)
+
+[node name="Tree103" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.51009, 0.107986, 1.30905, -0.00539047, 2.78042, -0.112083, -1.31133, 0.112924, 1.50792, 1.10252, 0.05, 49.132)
+
+[node name="Tree104" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.39672, -0.145141, -1.42692, 0.00697857, 2.53223, -0.152903, 1.43147, 0.129273, 1.39303, -6.15562, 0.05, -23.2559)
+
+[node name="Tree105" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.77597, 0.014512, -0.919661, -0.0777651, 2.3649, -0.123626, 0.916449, 0.17255, 1.77171, 0.175257, 0.05, 6.60934)
+
+[node name="Tree106" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.41675, 0.0743046, 1.4099, 0.00420414, 2.10215, -0.104234, -1.41166, 0.0808331, 1.41468, 1.92371, 0.05, 28.9651)
+
+[node name="Tree107" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.62767, -0.18559, 1.15459, 0.106429, 2.79249, 0.0791972, -1.1573, -0.00421533, 1.63115, -6.19849, 0.05, 55.36)
+
+[node name="Tree108" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.74621, -0.101345, 0.971721, 0.00756234, 2.50556, 0.151946, -0.975034, -0.162067, 1.74146, 3.44706, 0.05, -29.9855)
+
+[node name="Tree109" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.38736, -0.089116, -1.43853, 0.0249089, 2.32465, -0.0823754, 1.44035, 0.0456356, 1.38703, -5.97438, 0.05, 38.4093)
+
+[node name="Tree110" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.884, 0.0945032, 0.66576, -0.0306977, 2.20568, -0.168661, -0.670509, 0.164554, 1.87838, 5.4124, 0.05, -58.1615)
+
+[node name="Tree111" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.525975, -0.0381538, 1.92934, -0.0124997, 2.40073, 0.0363447, -1.92956, -0.0259522, 0.52568, 4.26328, 0.05, 55.9103)
+
+[node name="Tree112" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.99132, 0.208836, -0.0626062, -0.170496, 2.36803, 0.142167, 0.0746796, -0.162281, 1.99396, -5.92505, 0.05, 46.8977)
+
+[node name="Tree113" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.575373, 0.217731, -1.90934, -0.0234594, 2.83988, 0.152593, 1.91531, -0.0306243, 0.57545, 0.324951, 0.05, -28.18)
+
+[node name="Tree114" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.99452, -0.166006, 0.091105, 0.119545, 2.84276, -0.0651356, -0.0870989, 0.100302, 1.99686, -6.35335, 0.05, -54.1399)
+
+[node name="Tree115" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.92903, 0.175326, 0.512558, -0.122457, 2.75469, -0.0338214, -0.513671, 0.00170853, 1.93291, 4.36878, 0.05, 15.3012)
+
+[node name="Tree116" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.887302, 0.0373941, -1.79214, 0.0182437, 2.45027, 0.0430766, 1.79231, -0.0434534, 0.886781, -4.81632, 0.05, -25.1242)
+
+[node name="Tree117" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.37735, 0.0234589, -1.44997, -0.0846674, 2.10733, -0.049791, 1.44767, 0.100928, 1.37663, -4.83053, 0.05, 47.3651)
+
+[node name="Tree118" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.7021, -0.0660293, 1.04844, 0.101717, 2.19306, -0.0506351, -1.04523, 0.105893, 1.70241, 0.892296, 0.05, 9.08947)
+
+[node name="Tree119" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.03412, 0.163513, -1.7054, -0.0844432, 2.18903, 0.12302, 1.70981, 0.00921516, 1.03753, -4.18418, 0.05, -52.5263)
+
+[node name="Tree120" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.36731, -0.0502913, 1.45879, 0.102472, 2.0532, -0.0290742, -1.45601, 0.0972744, 1.36788, -2.96746, 0.05, -5.19548)
+
+[node name="Tree121" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.510655, 0.215949, 1.92513, -0.00665015, 2.36398, -0.186389, -1.9337, 0.0488982, 0.509034, -2.16259, 0.05, -26.6746)
+
+[node name="Tree122" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.20144, -0.239889, -1.5907, 0.0742984, 2.95273, -0.146796, 1.59719, 0.0430935, 1.20338, 6.20814, 0.05, 45.0357)
+
+[node name="Tree123" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.86262, 0.141995, 0.720628, -0.13989, 2.66054, 0.0671149, -0.714885, -0.150654, 1.86445, -0.364449, 0.05, 26.1801)
+
+[node name="Tree124" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.89334, 0.187964, 0.63049, -0.130296, 2.81514, -0.0304282, -0.631105, -0.0173094, 1.89778, -5.96426, 0.05, -57.0844)
+
+[node name="Tree125" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.57346, -0.207928, 1.22467, 0.0991405, 2.65385, 0.126869, -1.23061, -0.0520579, 1.5761, -0.342451, 0.05, -10.9812)
+
+[node name="Tree126" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.629625, -0.27343, -1.88895, 0.0293566, 2.89228, -0.188583, 1.89808, 0.045968, 0.629514, 4.12644, 0.05, -13.7737)
+
+[node name="Tree127" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.59227, 0.0544054, -1.20938, 0.0449543, 2.37708, 0.134506, 1.2094, -0.159986, 1.58723, -0.650778, 0.05, 45.0169)
+
+[node name="Tree128" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.52985, 0.199427, -1.27583, -0.0862779, 2.22568, 0.174799, 1.28535, -0.0879658, 1.53026, -0.94459, 0.05, 14.6644)
+
+[node name="Tree129" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.67168, -0.218552, -1.08318, 0.142428, 2.42526, -0.11027, 1.08867, 0.0183014, 1.67767, 5.43324, 0.05, 38.8378)
+
+[node name="Tree130" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.319905, -0.155324, 1.9697, 0.00150232, 2.31504, 0.135382, -1.97425, -0.0234068, 0.319272, -5.18001, 0.05, -1.7812)
+
+[node name="Tree131" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.86063, -0.039033, -0.732664, -0.00302574, 2.18485, -0.104951, 0.733526, 0.108022, 1.85801, -0.438238, 0.05, -0.522602)
+
+[node name="Tree132" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.32773, -0.253941, -1.48505, 0.0617785, 2.83615, -0.183671, 1.49443, 0.108369, 1.32698, 4.15573, 0.05, -7.8526)
+
+[node name="Tree133" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.0101, -0.228278, 1.7188, 0.00544431, 2.85063, 0.181625, -1.72617, -0.124589, 1.00635, -5.33415, 0.05, 21.7389)
+
+[node name="Tree134" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.89837, 0.0333596, -0.628999, -0.0323378, 2.80247, -0.0219278, 0.628618, 0.0434237, 1.89839, 3.81136, 0.05, -5.91969)
+
+[node name="Tree135" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.13808, 0.0756253, 1.64364, -0.02277, 2.66362, -0.053271, -1.64446, 0.0154563, 1.13825, 1.46493, 0.05, 26.5178)
+
+[node name="Tree136" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.966857, -0.0551043, -1.75022, -0.0155677, 2.5178, -0.0585727, 1.7507, 0.0528214, 0.966073, 2.21586, 0.05, 50.1726)
+
+[node name="Tree137" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.75131, 0.0979377, -0.962458, -0.104424, 2.41269, -0.0217884, 0.960205, 0.0837565, 1.75305, 0.686455, 0.05, 35.0006)
+
+[node name="Tree138" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.19354, 0.0203655, 1.60477, -0.0112161, 2.92538, -0.00900972, -1.60479, -0.00529925, 1.19359, -0.225014, 0.05, 33.3323)
+
+[node name="Tree139" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.99848, -0.0584595, -0.0676086, 0.0437074, 2.98893, 0.14111, 0.0646715, -0.213515, 1.99387, 4.50733, 0.05, 3.45793)
+
+[node name="Tree140" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.95367, 0.212406, -0.402234, -0.123549, 2.89516, 0.123917, 0.409748, -0.139791, 1.95521, 2.19244, 0.05, -23.8156)
+
+[node name="Tree141" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.732638, 0.0144596, 1.86095, 0.0118566, 2.96051, -0.0151651, -1.86094, 0.0245549, 0.732546, -1.67903, 0.05, -57.0859)
+
+[node name="Tree142" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.98937, -0.0379735, 0.203272, 0.0457005, 2.28639, -0.121818, -0.200823, 0.144137, 1.98591, 5.42544, 0.05, 43.4406)
+
+[node name="Tree143" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.11828, -0.192941, 1.64914, 0.0535759, 2.22693, 0.172109, -1.65728, -0.0581988, 1.11835, 0.566072, 0.05, -49.9805)
+
+[node name="Tree144" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.56046, -0.0661507, -1.24945, 0.101546, 2.13422, 0.0278695, 1.24686, -0.0910261, 1.56144, -2.35497, 0.05, 46.0694)
+
+[node name="Tree145" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.85036, 0.255556, -0.735514, -0.146757, 2.71048, 0.13834, 0.744741, -0.100827, 1.85469, -4.82227, 0.05, 35.9526)
+
+[node name="Tree146" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.77711, 0.18594, -0.901834, -0.13777, 2.19233, 0.101939, 0.907131, -0.0313073, 1.78222, 0.872198, 0.05, -17.9423)
+
+[node name="Tree147" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.463287, 0.157534, -1.93966, -0.00575167, 2.06771, 0.1548, 1.94559, -0.0313996, 0.462332, -2.78507, 0.05, 28.2142)
+
+[node name="Tree148" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.802528, 0.133878, 1.82972, -0.0233011, 2.97844, -0.0878411, -1.83178, 0.0207665, 0.802745, 3.78631, 0.05, -10.7265)
+
+[node name="Tree149" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.11215, -0.23967, -1.98449, 0.00445617, 2.14689, -0.221992, 1.99685, 0.00866974, 0.111952, 1.21428, 0.05, -12.7072)
+
+[node name="Tree150" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.0570997, 0.305448, 1.98715, -0.00463925, 2.77272, -0.218956, -1.99918, 0.00228977, 0.0572644, -3.04991, 0.0500001, -7.56865)
+
+[node name="Tree151" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.71102, 0.0701678, 1.03344, 0.016482, 2.10489, -0.155527, -1.03545, 0.149454, 1.70523, -2.21629, 0.05, 8.94182)
+
+[node name="Tree152" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.10008, -0.0744172, 1.6689, 0.0506564, 2.19217, 0.0478737, -1.66951, 0.0174796, 1.10113, -0.380074, 0.05, -40.9582)
+
+[node name="Tree153" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.837246, 0.308945, -1.79928, -0.0544069, 2.46901, 0.248363, 1.81551, -0.0684832, 0.837206, -3.34607, 0.05, -14.7292)
+
+[node name="Tree154" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.568357, -0.0526353, 1.91712, 0.0204825, 2.62098, 0.0358107, -1.91743, 0.0123961, 0.568647, 5.34807, 0.05, 1.58692)
+
+[node name="Tree155" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.348288, -0.109861, 1.96723, 0.0251865, 2.35539, 0.0901716, -1.96928, 0.0106946, 0.34908, -4.06095, 0.05, 33.996)
+
+[node name="Tree156" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.186445, -0.0274558, 1.99117, -0.0072386, 2.47953, 0.0229188, -1.99128, -0.0115842, 0.186351, -2.96853, 0.05, -45.5452)
+
+[node name="Tree157" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.670741, 0.322963, 1.85837, -0.0502891, 2.05252, -0.312072, -1.8835, 0.06021, 0.670124, 2.08155, 0.0500001, 25.3992)
+
+[node name="Tree158" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.26255, 0.0301596, 1.55094, -0.0743049, 2.55059, 0.0300405, -1.54934, -0.097747, 1.26241, 0.740597, 0.05, 50.6539)
+
+[node name="Tree159" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.728147, -0.202169, -1.85737, 0.0559034, 2.85289, -0.129934, 1.8619, -0.00659374, 0.730275, -5.77764, 0.05, 40.922)
+
+[node name="Tree160" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.246507, -0.0458593, -1.98442, 0.0204706, 2.52056, -0.0341165, 1.98464, -0.0203023, 0.24683, -1.76977, 0.05, -52.6954)
+
+[node name="Tree161" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.748676, 0.125162, -1.8522, -0.0274533, 2.65737, 0.0903935, 1.85438, -0.0111911, 0.749132, 5.65254, 0.05, 19.0258)
+
+[node name="Tree162" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.98955, -0.196653, -0.13464, 0.15365, 2.55364, -0.00387081, 0.134539, -0.00831522, 1.99546, -1.30846, 0.05, 0.809528)
+
+[node name="Tree163" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.16416, -0.0346995, -1.62608, -0.0227201, 2.84078, -0.046293, 1.62611, 0.0645336, 1.16349, 2.8531, 0.05, 55.9106)
+
+[node name="Tree164" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.83542, -0.0987325, 0.791084, 0.121359, 2.67783, -0.0962574, -0.785169, 0.183096, 1.83437, 4.63935, 0.05, -49.9927)
+
+[node name="Tree165" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.00214, 0.137124, -1.72817, 0.0261876, 2.85979, 0.125711, 1.73062, -0.122678, 0.998819, 1.93527, 0.05, -48.638)
+
+[node name="Tree166" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.52808, 0.0372223, -1.29001, 0.00218833, 2.56443, 0.0475737, 1.29033, -0.0484298, 1.52762, 1.54055, 0.05, -29.8985)
+
+[node name="Tree167" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.314075, -0.00539533, 1.97518, -0.00684098, 2.60935, 0.00527505, -1.97517, -0.00989535, 0.314058, -4.72689, 0.05, -41.3468)
+
+[node name="Tree168" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.90309, 0.068836, 0.612685, -0.0419232, 2.56842, -0.0445901, -0.613593, 0.0380131, 1.90332, 1.81285, 0.05, -3.26723)
+
+[node name="Tree169" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.902611, 0.084394, 1.78331, -0.0521125, 2.36561, -0.0535324, -1.78398, -0.0264033, 0.903839, 3.82376, 0.05, 47.2559)
+
+[node name="Tree170" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.59254, -0.254946, 1.19482, 0.0816843, 2.66161, 0.207802, -1.20713, -0.156238, 1.59036, 3.36367, 0.05, -28.1997)
+
+[node name="Tree171" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.414163, 0.228766, -1.94854, -0.033426, 2.56085, 0.174826, 1.95636, -0.0046758, 0.415494, 2.17799, 0.05, 27.5467)
+
+[node name="Tree172" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.70133, -0.0481859, -1.05037, 0.08281, 2.04876, 0.0447619, 1.04816, -0.0836492, 1.70139, -1.95899, 0.05, -59.8197)
+
+[node name="Tree173" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.30207, -0.0560731, -1.51741, 0.0619122, 2.45049, -0.00713512, 1.51684, -0.0518872, 1.30285, -0.256628, 0.05, 57.3103)
+
+[node name="Tree174" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.802174, -0.0487138, -1.83147, 0.0305598, 2.05442, -0.0383711, 1.83183, -0.0129411, 0.802657, 3.92262, 0.05, 27.9916)
+
+[node name="Tree175" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.48755, 0.122113, 1.33321, 0.0113284, 2.46747, -0.160164, -1.33681, 0.156793, 1.48219, -1.39633, 0.05, -50.3788)
+
+[node name="Tree176" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.06275, -0.0915805, 1.69242, 0.0275916, 2.31115, 0.0761743, -1.69405, -0.01981, 1.06297, 3.81693, 0.05, 24.4468)
+
+[node name="Tree177" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.75753, -0.0189588, 0.954372, -0.00699323, 2.29119, 0.0475395, -0.95449, -0.0516961, 1.75696, -3.62439, 0.05, 55.1798)
+
+[node name="Tree178" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.99287, -0.170591, 0.0976614, 0.137812, 2.47334, -0.000660354, -0.0973839, 0.00915765, 1.99761, -0.948832, 0.05, 24.4658)
+
+[node name="Tree179" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.829663, -0.184596, 1.81407, 0.0267866, 2.5514, 0.146399, -1.8196, -0.0466085, 0.829295, 3.98312, 0.05, -34.2292)
+
+[node name="Tree180" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.784117, -0.0133702, -1.83986, -0.0405596, 2.77384, -0.0277588, 1.83943, 0.0668629, 0.783685, 0.873346, 0.05, -35.3699)
+
+[node name="Tree181" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.434504, 0.154633, -1.94832, -0.037176, 2.50001, 0.118209, 1.95188, 0.0131934, 0.435964, 2.39281, 0.05, 36.9229)
+
+[node name="Tree182" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.54824, 0.15434, 1.25856, -0.118835, 2.23617, -0.0721131, -1.26048, -0.0212462, 1.55268, -4.05544, 0.05, 29.8079)
+
+[node name="Tree183" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.31117, 0.151475, 1.50537, -0.0605708, 2.49475, -0.107961, -1.50903, 0.0314774, 1.31233, -2.81155, 0.05, -28.8451)
+
+[node name="Tree184" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.790151, 0.0383256, 1.83707, -0.0203577, 2.64687, -0.0227641, -1.83718, -0.0128463, 0.790354, -6.24669, 0.05, -39.6188)
+
+[node name="Tree185" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.32155, 0.161364, 1.49536, -0.0278261, 2.43961, -0.151292, -1.50091, 0.0968527, 1.31947, -0.742954, 0.0500001, 35.5374)
+
+[node name="Tree186" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.99409, -0.162663, -0.100074, 0.107412, 2.77757, -0.175681, 0.109776, 0.237059, 1.98975, 5.60885, 0.05, 33.6935)
+
+[node name="Tree187" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.758083, -0.0201685, 1.8507, 0.0558614, 2.75993, -0.00710018, -1.84992, 0.0750759, 0.758191, 0.333364, 0.05, -4.50784)
+
+[node name="Tree188" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.878234, 0.182203, 1.79236, -0.00286385, 2.8596, -0.140094, -1.79686, 0.0844962, 0.876258, -3.43384, 0.05, -56.3785)
+
+[node name="Tree189" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.312455, 0.000441634, -1.97544, -0.000478895, 2.04868, 0.000360753, 1.97544, 0.000426796, 0.312455, -5.4046, 0.05, 6.69384)
+
+[node name="Tree190" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.93994, -0.234296, 0.449184, 0.156752, 2.49459, 0.149577, -0.460506, -0.137864, 1.94316, -1.39218, 0.05, 42.9635)
+
+[node name="Tree191" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.41175, 0.349788, -1.39647, -0.0853181, 2.90846, 0.252132, 1.4141, -0.173728, 1.40936, 4.76899, 0.05, -30.7636)
+
+[node name="Tree192" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.269198, -0.198885, -1.97515, 0.016839, 2.44397, -0.161423, 1.98173, 0.00624973, 0.269676, 5.66753, 0.05, -45.3081)
+
+[node name="Tree193" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.69878, 0.0858235, -1.05245, -0.146429, 2.1257, -0.0839981, 1.04532, 0.158294, 1.69861, -0.685102, 0.05, 39.2991)
+
+[node name="Tree194" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.7065, 0.146969, -1.0359, -0.110331, 2.41432, 0.0524241, 1.03715, 0.0150148, 1.71002, -3.22024, 0.05, -54.7343)
+
+[node name="Tree195" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.67979, -0.158347, -1.07996, 0.103625, 2.88534, -0.041454, 1.08055, -0.030543, 1.68285, 0.364372, 0.05, 14.4358)
+
+[node name="Tree196" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.557659, 0.065496, 1.91997, -0.0482705, 2.5044, -0.0404108, -1.92007, -0.0439379, 0.558644, -4.02962, 0.05, 31.7875)
+
+[node name="Tree197" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.58379, 0.213716, -1.21293, -0.119824, 2.9842, 0.0785021, 1.21542, 0.0157129, 1.58828, 5.76998, 0.0499998, 24.0417)
+
+[node name="Tree198" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.24293, 0.0596213, -1.56637, -0.0812083, 2.96635, -0.0131997, 1.56478, 0.106589, 1.24351, 5.53016, 0.05, -35.5124)
+
+[node name="Tree199" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.85677, 0.0516221, -0.742129, -0.044686, 2.54078, -0.0023481, 0.741895, 0.0238402, 1.85721, -2.67649, 0.05, -23.5557)
+
+[node name="Tree200" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.96391, 0.166604, -0.351943, -0.165025, 2.39138, -0.138228, 0.340324, 0.198169, 1.96393, -0.140596, 0.05, -12.0722)
+
+[node name="Tree201" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.994657, -0.0158414, 1.73507, -0.0412727, 2.30714, 0.0394766, -1.73463, -0.0639782, 0.993968, 3.91785, 0.05, 32.1684)
+
+[node name="Tree202" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.41533, 0.267661, 1.39944, -0.0635942, 2.71478, -0.213982, -1.41166, 0.146057, 1.41272, -5.6858, 0.05, -58.4463)
+
+[node name="Tree203" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.77517, -0.0648685, 0.920083, 0.0077431, 2.75362, 0.0872789, -0.921254, -0.101851, 1.77365, -0.281527, 0.05, -42.6287)
+
+[node name="Tree204" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.54346, 0.250562, 1.25747, -0.118344, 2.60966, -0.157203, -1.26639, 0.0615094, 1.54728, 2.08595, 0.05, 54.6273)
+
+[node name="Tree205" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.804048, -0.411654, 1.80629, 0.0668325, 2.69936, 0.299986, -1.83004, -0.0822852, 0.804569, 0.533897, 0.05, -15.3671)
+
+[node name="Tree206" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.901573, 0.152397, -1.78201, -0.0420142, 2.8253, 0.0994677, 1.78477, -0.0104743, 0.902521, 3.46751, 0.05, 25.7125)
+
+[node name="Tree207" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.551959, -0.311003, 1.90805, 0.0232784, 2.64113, 0.236633, -1.92219, -0.0573198, 0.550766, -2.22616, 0.05, 41.666)
+
+[node name="Tree208" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.252694, -0.101802, -1.98154, 0.0085742, 2.07267, -0.0978152, 1.98395, 0.0040088, 0.25281, 0.0240021, 0.05, 27.2975)
+
+[node name="Tree209" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.88767, 0.122659, 0.654543, -0.0332521, 2.68342, -0.181075, -0.660005, 0.215619, 1.88117, -0.368282, 0.05, -30.3576)
+
+[node name="Tree210" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.275515, 0.0971029, -1.97907, -0.0112934, 2.2574, 0.0852081, 1.9809, -0.000635836, 0.275746, -1.74567, 0.05, 50.3944)
+
+[node name="Tree211" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.26804, -0.00287809, -1.54663, 0.081323, 2.01115, 0.0629835, 1.54449, -0.103531, 1.26648, -2.5616, 0.0500001, 4.77067)
+
+[node name="Tree212" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.09337, 0.00985901, 1.67466, -0.0446801, 2.65672, 0.0203129, -1.67408, -0.0644671, 1.09321, -2.85448, 0.05, -0.0474167)
+
+[node name="Tree213" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.989141, -0.140685, -1.73273, -0.00205374, 2.02088, -0.16084, 1.73827, 0.0824422, 0.985794, 5.99091, 0.05, -29.7565)
+
+[node name="Tree214" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.807495, -0.0606978, 1.82883, -0.00638156, 2.10434, 0.065836, -1.82973, -0.0341265, 0.80687, -1.69096, 0.05, 55.8902)
+
+[node name="Tree215" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.0020807, 0.362188, 1.98481, -9.20036e-05, 2.92234, -0.245993, -2, 0.00024237, 0.00207622, -0.621153, 0.05, 29.6629)
+
+[node name="Tree216" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.29917, 0.0133705, -1.52053, 0.0733852, 2.2554, 0.0782518, 1.51881, -0.120412, 1.29686, 0.460806, 0.05, -1.96887)
+
+[node name="Tree217" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.46431, 0.0404246, -1.36169, -0.0838437, 2.02646, -0.0316814, 1.35969, 0.0814241, 1.46451, -5.66523, 0.05, -0.813156)
+
+[node name="Tree218" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.85741, -0.144737, -0.734219, 0.121581, 2.75897, 0.0228625, 0.731616, -0.0910356, 1.86021, 2.84183, 0.05, 35.8219)
+
+[node name="Tree219" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.79167, -0.0740437, -0.886415, 0.0479542, 2.28346, -0.0492248, 0.887487, 0.0260965, 1.79216, -1.43469, 0.05, -41.1089)
+
+[node name="Tree220" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.72345, -0.04702, 1.01409, 0.10711, 2.55511, -0.109876, -1.00908, 0.190909, 1.72034, -5.10618, 0.05, 2.49249)
+
+[node name="Tree221" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.82368, -0.20882, -0.79803, 0.146387, 2.15006, -0.147045, 0.807928, 0.0817902, 1.82798, 0.297453, 0.05, -44.3868)
+
+[node name="Tree222" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(0.623349, 0.345403, 1.87963, -0.0442946, 2.44201, -0.280251, -1.89986, 0.0563926, 0.623246, -2.5087, 0.05, -31.195)
+
+[node name="Tree223" parent="ScatterItem" instance=ExtResource("1_xt7gg")]
+transform = Transform3D(1.64392, -0.0713228, 1.13776, 0.103242, 2.58956, -0.0526669, -1.1344, 0.132319, 1.644, 0.812708, 0.05, 28.33)

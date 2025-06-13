@@ -1,0 +1,35 @@
+[gd_scene load_steps=6 format=3 uid="uid://dgjl21vrdyyhh"]
+
+[ext_resource type="Script" uid="uid://bd046eokvcnu2" path="res://addons/phantom_camera/scripts/phantom_camera_host/phantom_camera_host.gd" id="1_6fpfv"]
+[ext_resource type="Script" uid="uid://csjccrhj5wnx7" path="res://addons/phantom_camera/scripts/phantom_camera/phantom_camera_3d.gd" id="2_c3qjv"]
+[ext_resource type="Script" uid="uid://8umksf8e80fw" path="res://addons/phantom_camera/scripts/resources/tween_resource.gd" id="3_4w24j"]
+
+[sub_resource type="Resource" id="Resource_b880a"]
+script = ExtResource("3_4w24j")
+duration = 1.0
+transition = 0
+ease = 2
+
+[sub_resource type="PrismMesh" id="PrismMesh_6fpfv"]
+size = Vector3(1, 1, 2)
+
+[node name="CarInterior" type="Node3D"]
+
+[node name="Camera3D" type="Camera3D" parent="."]
+
+[node name="PhantomCameraHost" type="Node" parent="Camera3D"]
+process_priority = 300
+process_physics_priority = 300
+script = ExtResource("1_6fpfv")
+
+[node name="PhantomCamera3D" type="Node3D" parent="."]
+script = ExtResource("2_c3qjv")
+tween_resource = SubResource("Resource_b880a")
+
+[node name="CSGMesh3D" type="CSGMesh3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 0, 0, -2)
+mesh = SubResource("PrismMesh_6fpfv")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, -0.976221, -2.5)
+size = Vector3(2, 0.1, 0.947559)

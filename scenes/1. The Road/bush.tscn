@@ -1,0 +1,173 @@
+[gd_scene load_steps=11 format=3 uid="uid://m2fax4xw1x2k"]
+
+[ext_resource type="Texture2D" uid="uid://bbfer4dlxwmpe" path="res://Meshes/1. The Road/psx_forest_asset_pack/textures/PS1Bush_baseColor.png" id="1_aw0ym"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dkjo6"]
+resource_name = "PS1Bush"
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
+cull_mode = 2
+albedo_texture = ExtResource("1_aw0ym")
+roughness = 0.0
+texture_filter = 2
+texture_repeat = false
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_oirms"]
+_surfaces = [{
+"aabb": AABB(-0.5, 0, -0.5, 1, 1e-05, 1.00001),
+"format": 34896613377,
+"index_count": 6,
+"index_data": PackedByteArray(0, 0, 3, 0, 1, 0, 0, 0, 2, 0, 3, 0),
+"name": "PS1Bush",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray(0, 0, 0, 0, 254, 255, 0, 0, 255, 255, 0, 0, 254, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255, 255, 0, 0, 0, 0, 0, 0)
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_4onxx"]
+resource_name = "Sketchfab_Scene_Object_5"
+_surfaces = [{
+"aabb": AABB(-0.5, 0, -0.5, 1, 1e-05, 1.00001),
+"attribute_data": PackedByteArray(0, 0, 0, 0, 255, 255, 0, 0, 0, 0, 255, 255, 255, 255, 255, 255),
+"format": 34896613399,
+"index_count": 6,
+"index_data": PackedByteArray(0, 0, 3, 0, 1, 0, 0, 0, 2, 0, 3, 0),
+"material": SubResource("StandardMaterial3D_dkjo6"),
+"name": "PS1Bush",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray(0, 0, 0, 0, 254, 255, 255, 63, 255, 255, 0, 0, 254, 255, 255, 63, 0, 0, 0, 0, 0, 0, 255, 63, 255, 255, 0, 0, 0, 0, 255, 63, 255, 255, 255, 127, 255, 255, 255, 127, 255, 255, 255, 127, 255, 255, 255, 127)
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_oirms")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_rmff4"]
+_surfaces = [{
+"aabb": AABB(-0.5, 0, -0.5, 1, 1e-05, 1),
+"format": 34896613377,
+"index_count": 6,
+"index_data": PackedByteArray(0, 0, 3, 0, 1, 0, 0, 0, 2, 0, 3, 0),
+"name": "PS1Bush",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray(0, 0, 0, 0, 0, 0, 0, 0, 255, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255, 255, 0, 0, 255, 255, 0, 0, 255, 255, 0, 0)
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_ljvaj"]
+resource_name = "Sketchfab_Scene_Object_6"
+_surfaces = [{
+"aabb": AABB(-0.5, 0, -0.5, 1, 1e-05, 1),
+"attribute_data": PackedByteArray(0, 0, 0, 0, 255, 255, 0, 0, 0, 0, 255, 255, 255, 255, 255, 255),
+"format": 34896613399,
+"index_count": 6,
+"index_data": PackedByteArray(0, 0, 3, 0, 1, 0, 0, 0, 2, 0, 3, 0),
+"material": SubResource("StandardMaterial3D_dkjo6"),
+"name": "PS1Bush",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray(0, 0, 0, 0, 0, 0, 255, 63, 255, 255, 0, 0, 0, 0, 255, 63, 0, 0, 0, 0, 255, 255, 255, 63, 255, 255, 0, 0, 255, 255, 255, 63, 0, 0, 255, 127, 0, 0, 255, 127, 0, 0, 255, 127, 0, 0, 255, 127)
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_rmff4")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_jali6"]
+_surfaces = [{
+"aabb": AABB(-0.5, 0, -0.5, 1.00001, 1e-05, 1.00001),
+"format": 34896613377,
+"index_count": 6,
+"index_data": PackedByteArray(0, 0, 3, 0, 1, 0, 0, 0, 2, 0, 3, 0),
+"name": "PS1Bush",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray(254, 255, 0, 0, 254, 255, 0, 0, 0, 0, 0, 0, 254, 255, 0, 0, 254, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_mx5lo"]
+resource_name = "Sketchfab_Scene_Object_7"
+_surfaces = [{
+"aabb": AABB(-0.5, 0, -0.5, 1.00001, 1e-05, 1.00001),
+"attribute_data": PackedByteArray(0, 0, 0, 0, 255, 255, 0, 0, 0, 0, 255, 255, 255, 255, 255, 255),
+"format": 34896613399,
+"index_count": 6,
+"index_data": PackedByteArray(0, 0, 3, 0, 1, 0, 0, 0, 2, 0, 3, 0),
+"material": SubResource("StandardMaterial3D_dkjo6"),
+"name": "PS1Bush",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray(254, 255, 0, 0, 254, 255, 0, 0, 0, 0, 0, 0, 254, 255, 0, 0, 254, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255, 127, 255, 63, 255, 127, 255, 63, 255, 127, 255, 63, 255, 127, 255, 63)
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_jali6")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_dvmfn"]
+_surfaces = [{
+"aabb": AABB(-0.5, 0, -0.5, 1, 1e-05, 1.00001),
+"format": 34896613377,
+"index_count": 6,
+"index_data": PackedByteArray(0, 0, 3, 0, 1, 0, 0, 0, 2, 0, 3, 0),
+"name": "PS1Bush",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray(0, 0, 0, 0, 254, 255, 0, 0, 255, 255, 0, 0, 254, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255, 255, 0, 0, 0, 0, 0, 0)
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_nj1g4"]
+resource_name = "Sketchfab_Scene_Object_8"
+_surfaces = [{
+"aabb": AABB(-0.5, 0, -0.5, 1, 1e-05, 1.00001),
+"attribute_data": PackedByteArray(0, 0, 0, 0, 255, 255, 0, 0, 0, 0, 255, 255, 255, 255, 255, 255),
+"format": 34896613399,
+"index_count": 6,
+"index_data": PackedByteArray(0, 0, 3, 0, 1, 0, 0, 0, 2, 0, 3, 0),
+"material": SubResource("StandardMaterial3D_dkjo6"),
+"name": "PS1Bush",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray(0, 0, 0, 0, 254, 255, 255, 63, 255, 255, 0, 0, 254, 255, 255, 63, 0, 0, 0, 0, 0, 0, 255, 63, 255, 255, 0, 0, 0, 0, 255, 63, 255, 255, 255, 127, 255, 255, 255, 127, 255, 255, 255, 127, 255, 255, 255, 127)
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_dvmfn")
+
+[node name="Bush" type="Node3D"]
+transform = Transform3D(4, 0, 0, 0, 4, 0, 0, 0, 4, 0, 0, 0)
+
+[node name="PS1Bush_5" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0.25, 0)
+
+[node name="Object_14" type="MeshInstance3D" parent="PS1Bush_5"]
+mesh = SubResource("ArrayMesh_4onxx")
+skeleton = NodePath("")
+
+[node name="PS1Bush_001_6" type="Node3D" parent="."]
+transform = Transform3D(-8.9407e-08, 1, 8.9407e-08, 2.08616e-07, -8.9407e-08, 1, 1, 8.9407e-08, -2.08616e-07, 0, 0.25, 0)
+
+[node name="Object_16" type="MeshInstance3D" parent="PS1Bush_001_6"]
+mesh = SubResource("ArrayMesh_ljvaj")
+skeleton = NodePath("")
+
+[node name="PS1Bush_002_7" type="Node3D" parent="."]
+transform = Transform3D(0.707107, 0.707107, -3.22578e-08, 3.22578e-08, -7.78772e-08, -1, -0.707107, 0.707107, -7.78772e-08, 0, 0.25, 0)
+
+[node name="Object_18" type="MeshInstance3D" parent="PS1Bush_002_7"]
+mesh = SubResource("ArrayMesh_mx5lo")
+skeleton = NodePath("")
+
+[node name="PS1Bush_003_8" type="Node3D" parent="."]
+transform = Transform3D(-0.707107, 0.707107, -3.22578e-08, -3.22578e-08, -7.78772e-08, -1, -0.707107, -0.707107, 7.78772e-08, 0, 0.25, 0)
+
+[node name="Object_20" type="MeshInstance3D" parent="PS1Bush_003_8"]
+mesh = SubResource("ArrayMesh_nj1g4")
+skeleton = NodePath("")

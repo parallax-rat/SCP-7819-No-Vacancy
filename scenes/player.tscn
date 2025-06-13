@@ -1,0 +1,66 @@
+[gd_scene load_steps=8 format=3 uid="uid://dda335nmb744h"]
+
+[ext_resource type="Script" uid="uid://wqx4yq7xj1jl" path="res://scripts/player.gd" id="1_dqkch"]
+[ext_resource type="Script" uid="uid://bf5advxptcwyg" path="res://addons/phantom_camera/scripts/phantom_camera/phantom_camera_3d.gd" id="2_qlg0r"]
+[ext_resource type="Script" uid="uid://b6d0y1vk0uoeh" path="res://addons/phantom_camera/scripts/resources/tween_resource.gd" id="3_tuyoq"]
+[ext_resource type="Script" uid="uid://dtcv1l0q3ml8f" path="res://addons/phantom_camera/scripts/resources/camera_3d_resource.gd" id="4_fjrip"]
+
+[sub_resource type="Resource" id="Resource_r866f"]
+script = ExtResource("3_tuyoq")
+duration = 1.0
+transition = 0
+ease = 2
+
+[sub_resource type="Resource" id="Resource_juat2"]
+script = ExtResource("4_fjrip")
+cull_mask = 1048575
+h_offset = 0.0
+v_offset = 0.0
+projection = 0
+fov = 75.0
+size = 1.0
+frustum_offset = Vector2(0, 0)
+near = 0.05
+far = 4000.0
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_eu51e"]
+
+[node name="Basic FPS Player" type="CharacterBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 1, 0)
+collision_mask = 2
+script = ExtResource("1_dqkch")
+JUMP_VELOCITY = 3.5
+
+[node name="Head" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.7, 0)
+
+[node name="PlayerHeadCamera" type="Node3D" parent="Head"]
+script = ExtResource("2_qlg0r")
+priority = 3
+tween_resource = SubResource("Resource_r866f")
+camera_3d_resource = SubResource("Resource_juat2")
+
+[node name="InteractionCast" type="RayCast3D" parent="Head"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+target_position = Vector3(0, -2.5, 0)
+collision_mask = 4
+collide_with_areas = true
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("CapsuleShape3D_eu51e")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="UserInterface" type="Control" parent="CanvasLayer"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="MarginContainer" type="MarginContainer" parent="CanvasLayer/UserInterface"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="InteractionLabel" type="Label" parent="CanvasLayer/UserInterface/MarginContainer"]
+layout_mode = 2

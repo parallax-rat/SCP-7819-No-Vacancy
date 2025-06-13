@@ -1,0 +1,54 @@
+[gd_scene load_steps=8 format=3 uid="uid://dkf40kqi5vlo0"]
+
+[ext_resource type="Texture2D" uid="uid://cbryj8txqq845" path="res://Materials/guard_rail.png" id="1_dgsyg"]
+[ext_resource type="Shader" uid="uid://cf3p53uetyoio" path="res://shaders/PSX_Model.gdshader" id="1_gskal"]
+[ext_resource type="Texture2D" uid="uid://xvxybcb4x2lw" path="res://Materials/concrete_15.jpg" id="2_kwbyj"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_27x0g"]
+render_priority = 0
+shader = ExtResource("1_gskal")
+shader_parameter/affine_mapping = false
+shader_parameter/albedo = ExtResource("1_dgsyg")
+shader_parameter/alpha_scissor = 0.5
+shader_parameter/jitter = 0.25
+shader_parameter/resolution = Vector2i(960, 540)
+
+[sub_resource type="BoxMesh" id="BoxMesh_12vr0"]
+lightmap_size_hint = Vector2i(44, 56)
+material = SubResource("ShaderMaterial_27x0g")
+size = Vector3(0.2, 1, 12)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_hpx0l"]
+render_priority = 0
+shader = ExtResource("1_gskal")
+shader_parameter/affine_mapping = false
+shader_parameter/albedo = ExtResource("2_kwbyj")
+shader_parameter/alpha_scissor = 0.5
+shader_parameter/jitter = 0.25
+shader_parameter/resolution = Vector2i(960, 540)
+
+[sub_resource type="BoxMesh" id="BoxMesh_aj86w"]
+material = SubResource("ShaderMaterial_hpx0l")
+size = Vector3(0.2, 0.5, 1)
+
+[node name="GuardRail" type="Node3D"]
+
+[node name="Guard" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.99, -6)
+cast_shadow = 0
+mesh = SubResource("BoxMesh_12vr0")
+
+[node name="Legs" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.243696, -2)
+mesh = SubResource("BoxMesh_aj86w")
+skeleton = NodePath("../Guard")
+
+[node name="Legs2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.243696, -10)
+mesh = SubResource("BoxMesh_aj86w")
+skeleton = NodePath("../Guard")
+
+[node name="Legs3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.243696, -6)
+mesh = SubResource("BoxMesh_aj86w")
+skeleton = NodePath("../Guard")

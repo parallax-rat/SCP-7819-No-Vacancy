@@ -1,0 +1,39 @@
+[gd_scene load_steps=7 format=3 uid="uid://cf0alu7l4cg51"]
+
+[ext_resource type="PackedScene" uid="uid://cc8fssdfhwt5l" path="res://scenes/nature/route_6_sign.tscn" id="1_cn74x"]
+[ext_resource type="Texture2D" uid="uid://ch2308yt4if46" path="res://assets/roads/spd45.png" id="2_1sit1"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_qtktl"]
+size = Vector2(2, 2.5)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_i20t8"]
+albedo_texture = ExtResource("2_1sit1")
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_ng84m"]
+size = Vector2(2, 2.5)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_357qf"]
+albedo_texture = ExtResource("2_1sit1")
+
+[node name="SpeedLimitSign" instance=ExtResource("1_cn74x")]
+
+[node name="CSGBox3D2" parent="Sign" index="0"]
+mesh = SubResource("PlaneMesh_qtktl")
+surface_material_override/0 = SubResource("StandardMaterial3D_i20t8")
+
+[node name="CSGBox3D3" parent="Sign" index="1"]
+visible = false
+
+[node name="CSGBox3D2" parent="Sign2" index="0"]
+mesh = SubResource("PlaneMesh_ng84m")
+surface_material_override/0 = SubResource("StandardMaterial3D_357qf")
+
+[node name="CSGBox3D3" parent="Sign2" index="1"]
+visible = false
+size = Vector3(2.1, 2.6, 0.001)
+
+[node name="CSGBox3D4" parent="Sign2/CSGBox3D3" index="0"]
+size = Vector3(2, 2.5, 0.078)
+
+[node name="CSGBox3D" parent="." index="3"]
+size = Vector3(2, 2.5, 0.182)

@@ -1,0 +1,11 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://du53tbmf0octx"]
+
+[ext_resource type="Shader" uid="uid://cf3p53uetyoio" path="res://shaders/PSX_Model.gdshader" id="1_fnb1i"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_fnb1i")
+shader_parameter/affine_mapping = false
+shader_parameter/alpha_scissor = 0.5
+shader_parameter/jitter = 0.6
+shader_parameter/resolution = Vector2i(320, 240)
