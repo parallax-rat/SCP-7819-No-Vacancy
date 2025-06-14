@@ -522,6 +522,7 @@ visible = false
 
 [node name="SpeedLimitSign" parent="." instance=ExtResource("7_30isu")]
 transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 19.6, 0.0499997, -5)
+visible = false
 
 [node name="StaticBody3D" type="StaticBody3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -60)

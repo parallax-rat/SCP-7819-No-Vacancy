@@ -1203,44 +1203,34 @@ skeleton = NodePath("../../../..")
 
 [node name="Rail21" parent="RightSideTerrain/Rails" instance=ExtResource("4_ve00o")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 1, 12)
-skeleton = NodePath("../../../CenterDivide")
 
 [node name="Rail22" parent="RightSideTerrain/Rails" instance=ExtResource("4_ve00o")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 1, 0)
-skeleton = NodePath("../../../CenterDivide")
 
 [node name="Rail23" parent="RightSideTerrain/Rails" instance=ExtResource("4_ve00o")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 1, -12)
-skeleton = NodePath("../../../CenterDivide")
 
 [node name="Rail24" parent="RightSideTerrain/Rails" instance=ExtResource("4_ve00o")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 1, -24)
-skeleton = NodePath("../../../CenterDivide")
 
 [node name="Rail25" parent="RightSideTerrain/Rails" instance=ExtResource("4_ve00o")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 1, -36)
-skeleton = NodePath("../../../CenterDivide")
 
 [node name="Rail26" parent="RightSideTerrain/Rails" instance=ExtResource("4_ve00o")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 1, -48)
-skeleton = NodePath("../../../CenterDivide")
 
 [node name="Rail27" parent="RightSideTerrain/Rails" instance=ExtResource("4_ve00o")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 1, -60)
-skeleton = NodePath("../../../CenterDivide")
 
 [node name="Rail28" parent="RightSideTerrain/Rails" instance=ExtResource("4_ve00o")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 1, -72)
-skeleton = NodePath("../../../CenterDivide")
 
 [node name="Rail29" parent="RightSideTerrain/Rails" instance=ExtResource("4_ve00o")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 1, -84)
 visible = false
-skeleton = NodePath("../../../CenterDivide")
 
 [node name="Rail30" parent="RightSideTerrain/Rails" instance=ExtResource("4_ve00o")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 1, -96)
-skeleton = NodePath("../../../CenterDivide")
 
 [node name="LeftSideTerrain" type="Node3D" parent="."]
 
@@ -2874,43 +2864,33 @@ skeleton = NodePath("../../../..")
 
 [node name="Rail21" parent="RightSideTerrain2/Rails" instance=ExtResource("4_ve00o")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 1, 12)
-skeleton = NodePath("../../../CenterDivide")
 
 [node name="Rail22" parent="RightSideTerrain2/Rails" instance=ExtResource("4_ve00o")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 1, 0)
-skeleton = NodePath("../../../CenterDivide")
 
 [node name="Rail23" parent="RightSideTerrain2/Rails" instance=ExtResource("4_ve00o")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 1, -12)
-skeleton = NodePath("../../../CenterDivide")
 
 [node name="Rail24" parent="RightSideTerrain2/Rails" instance=ExtResource("4_ve00o")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 1, -24)
-skeleton = NodePath("../../../CenterDivide")
 
 [node name="Rail25" parent="RightSideTerrain2/Rails" instance=ExtResource("4_ve00o")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 1, -36)
-skeleton = NodePath("../../../CenterDivide")
 
 [node name="Rail26" parent="RightSideTerrain2/Rails" instance=ExtResource("4_ve00o")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 1, -48)
-skeleton = NodePath("../../../CenterDivide")
 
 [node name="Rail27" parent="RightSideTerrain2/Rails" instance=ExtResource("4_ve00o")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 1, -60)
-skeleton = NodePath("../../../CenterDivide")
 
 [node name="Rail28" parent="RightSideTerrain2/Rails" instance=ExtResource("4_ve00o")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 1, -72)
-skeleton = NodePath("../../../CenterDivide")
 
 [node name="Rail29" parent="RightSideTerrain2/Rails" instance=ExtResource("4_ve00o")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 1, -84)
-skeleton = NodePath("../../../CenterDivide")
 
 [node name="Rail30" parent="RightSideTerrain2/Rails" instance=ExtResource("4_ve00o")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 1, -96)
-skeleton = NodePath("../../../CenterDivide")
 
 [node name="LeftSideTerrain2" type="Node3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -120)
