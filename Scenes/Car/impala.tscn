@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://dskhutjr7vbqc"]
+
+[ext_resource type="PackedScene" uid="uid://8cq3udea4cat" path="res://Scenes/Car/car_interior.blend" id="1_axxgc"]
+
+[node name="Impala" unique_id=1416158097 instance=ExtResource("1_axxgc")]

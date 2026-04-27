@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://cqdf7y6t5lk5i"]
+
+[ext_resource type="Shader" uid="uid://clvcokdeo5uin" path="res://Resources/Shaders/CanvasItem/f2f_pp.gdshader" id="1_k2abe"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_5skuv"]
+shader = ExtResource("1_k2abe")
+shader_parameter/aberration_strength = 1.0000000475
+shader_parameter/blur_strength = 1.0000000475
+shader_parameter/noise_strength = 0.048
+shader_parameter/vignette_strength = 0.250000011875
+shader_parameter/scanline_strength = 0.016
+shader_parameter/distortion_strength = 0.0
+shader_parameter/ghost_strength = 0.0
+shader_parameter/flicker_strength = 0.0
+
+[node name="Fears2Fathom_PP" type="ColorRect" unique_id=130497455]
+material = SubResource("ShaderMaterial_5skuv")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2

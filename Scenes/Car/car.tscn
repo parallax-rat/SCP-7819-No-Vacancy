@@ -1,0 +1,65 @@
+[gd_scene format=3 uid="uid://c1soeou12h0v8"]
+
+[ext_resource type="Script" uid="uid://c0x5mfclarks4" path="res://addons/road-generator/nodes/road_manager.gd" id="1_afscr"]
+[ext_resource type="Script" uid="uid://hbm0useosnd" path="res://addons/road-generator/nodes/road_container.gd" id="2_nkh8f"]
+[ext_resource type="Material" uid="uid://dpashsuk5lr4x" path="res://addons/road-generator/resources/road_texture.material" id="3_imavk"]
+[ext_resource type="Script" uid="uid://csqpps7ojqf5t" path="res://addons/road-generator/nodes/road_point.gd" id="4_s58m0"]
+[ext_resource type="PackedScene" uid="uid://8cq3udea4cat" path="res://Scenes/Car/car_interior.blend" id="5_nkh8f"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_r1w1t"]
+
+[sub_resource type="Sky" id="Sky_e7e8e"]
+sky_material = SubResource("ProceduralSkyMaterial_r1w1t")
+
+[sub_resource type="Environment" id="Environment_y6gko"]
+background_mode = 2
+sky = SubResource("Sky_e7e8e")
+
+[node name="Car" type="Node3D" unique_id=2118042531]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=465509964]
+environment = SubResource("Environment_y6gko")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1514854910]
+transform = Transform3D(0.5105729, -0.4728587, 0.7181365, 0, 0.8352032, 0.54994154, -0.8598345, -0.28078526, 0.4264321, 0, 4.210124, 1.4250381)
+light_color = Color(0.44177976, 0.562989, 0.58437884, 1)
+light_energy = 0.1
+light_indirect_energy = 3.0
+light_specular = 0.0
+shadow_enabled = true
+shadow_opacity = 0.9
+shadow_blur = 0.0
+
+[node name="RoadManager" type="Node3D" parent="." unique_id=1799370962]
+script = ExtResource("1_afscr")
+collision_mask = 0
+metadata/_custom_type_script = "uid://c0x5mfclarks4"
+
+[node name="RoadContainer" type="Node3D" parent="RoadManager" unique_id=1609525031]
+script = ExtResource("2_nkh8f")
+material_resource = ExtResource("3_imavk")
+use_lowpoly_preview = true
+edge_containers = Array[NodePath]([NodePath(""), NodePath(""), NodePath(""), NodePath("")])
+edge_rp_targets = Array[NodePath]([NodePath(""), NodePath(""), NodePath(""), NodePath("")])
+edge_rp_target_dirs = Array[int]([-1, -1, -1, -1])
+edge_rp_locals = Array[NodePath]([NodePath(""), NodePath(""), NodePath("RP_001"), NodePath("RP_002")])
+edge_rp_local_dirs = Array[int]([0, 1, 1, 0])
+metadata/_custom_type_script = "uid://hbm0useosnd"
+
+[node name="RP_001" type="Node3D" parent="RoadManager/RoadContainer" unique_id=1099227697]
+script = ExtResource("4_s58m0")
+traffic_dir = Array[int]([2, 2, 1, 1])
+lanes = Array[int]([2, 4, 4, 2])
+next_pt_init = NodePath("../RP_002")
+
+[node name="RP_002" type="Node3D" parent="RoadManager/RoadContainer" unique_id=438822014]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 62.800003)
+script = ExtResource("4_s58m0")
+traffic_dir = Array[int]([2, 2, 1, 1])
+lanes = Array[int]([2, 4, 4, 2])
+prior_mag = 16.390049
+next_mag = 32.776184
+prior_pt_init = NodePath("../RP_001")
+
+[node name="car_interior" parent="RoadManager/RoadContainer" unique_id=1416158097 instance=ExtResource("5_nkh8f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.0000007, 6.7461753, 15.6)
