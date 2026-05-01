@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://dqxk4kkk8vho8"]
+
+[ext_resource type="PackedScene" uid="uid://po4yfqouy54y" path="res://assets/sports_car/Sports Car.glb" id="1_4s1ct"]
+
+[node name="Car" unique_id=849775082 instance=ExtResource("1_4s1ct")]

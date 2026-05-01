@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://b7p3ps2q4goty"]
+
+[ext_resource type="PackedScene" uid="uid://dms3eda88hbsl" path="res://scenes/nature_props/tree_rt_3.glb" id="1_aen4t"]
+
+[node name="TreeCluster" type="Node3D" unique_id=528540599]
+
+[node name="tree_rt_33" parent="." unique_id=1562424862 instance=ExtResource("1_aen4t")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.4, 0, -0.8000001)
+
+[node name="tree_rt_34" parent="." unique_id=1878102944 instance=ExtResource("1_aen4t")]
+transform = Transform3D(0.49999997, 0, -0.86602545, 0, 1, 0, 0.86602545, 0, 0.49999997, -1.4169874, 0, 1.0830128)
+
+[node name="tree_rt_35" parent="." unique_id=1167301331 instance=ExtResource("1_aen4t")]
+transform = Transform3D(0.49999997, 0, -0.86602545, 0, 1, 0, 0.86602545, 0, 0.49999997, -2.7830129, 0, 0.71698725)
+
+[node name="tree_rt_36" parent="." unique_id=866144310 instance=ExtResource("1_aen4t")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.8, 0, 2.6)

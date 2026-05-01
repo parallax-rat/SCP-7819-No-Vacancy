@@ -1,8 +1,8 @@
-[gd_scene load_steps=7 format=3 uid="uid://l2s8vjk0akda"]
+[gd_scene format=3 uid="uid://l2s8vjk0akda"]
 
-[ext_resource type="Script" uid="uid://clghcexioloww" path="res://Scripts/KeyPad.gd" id="1_hcbo1"]
+[ext_resource type="Script" uid="uid://cjtu4d7kisiog" path="res://Scripts/KeyPad.gd" id="1_hcbo1"]
 [ext_resource type="PackedScene" uid="uid://bwo5sir08a8q8" path="res://Objects/Map/KeyPadButton.tscn" id="2_hcbo1"]
-[ext_resource type="FontFile" uid="uid://c86r3uua3an8r" path="res://Fonts/IBMPlexMono-Medium.ttf" id="3_h3fs8"]
+[ext_resource type="FontFile" uid="uid://dsnsj1ahh2agn" path="res://assets/fonts/IBMPlexMono-Medium.ttf" id="3_h3fs8"]
 
 [sub_resource type="BoxMesh" id="BoxMesh_gxypy"]
 size = Vector3(0.4, 0.4, 0.1)

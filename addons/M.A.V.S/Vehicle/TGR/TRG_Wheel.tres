@@ -1,0 +1,15 @@
+[gd_resource type="ShaderMaterial" script_class="PsxMaterial3D" format=3 uid="uid://djshtupa7hdle"]
+
+[ext_resource type="Texture2D" uid="uid://dlys6b0lntrwy" path="res://addons/M.A.V.S/Vehicle/TGR/TGR TXT/TRG_Wheel_Wheel_BaseColor.png" id="1_x54y2"]
+[ext_resource type="Script" uid="uid://cb12verrfoj5k" path="res://addons/psx/scripts/PsxMaterial3D.gd" id="2_lkocb"]
+[ext_resource type="Shader" path="res://addons/psx/shaders/precompile/psx_0024.gdshader" id="3_qtce8"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("3_qtce8")
+shader_parameter/u_vertex_color_use_as_albedo = false
+shader_parameter/u_albedo_texture = ExtResource("1_x54y2")
+shader_parameter/u_albedo_color = Color(1, 1, 1, 1)
+script = ExtResource("2_lkocb")
+vertex_color_use_as_albedo = false
+albedo_texture = ExtResource("1_x54y2")

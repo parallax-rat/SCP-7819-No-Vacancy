@@ -1,7 +1,7 @@
-[gd_scene load_steps=8 format=3 uid="uid://bwo5sir08a8q8"]
+[gd_scene format=3 uid="uid://bwo5sir08a8q8"]
 
-[ext_resource type="Script" uid="uid://cojr3diiwowle" path="res://Scripts/KeyPadButton.gd" id="1_3rlmb"]
-[ext_resource type="FontFile" uid="uid://c86r3uua3an8r" path="res://Fonts/IBMPlexMono-Medium.ttf" id="2_e0opt"]
+[ext_resource type="Script" uid="uid://bv5wwsmei3rvc" path="res://Scripts/KeyPadButton.gd" id="1_3rlmb"]
+[ext_resource type="FontFile" uid="uid://dsnsj1ahh2agn" path="res://assets/fonts/IBMPlexMono-Medium.ttf" id="2_e0opt"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ete0w"]
 albedo_color = Color(0.056291588, 0.056291603, 0.056291595, 1)
